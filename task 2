@@ -1,0 +1,10 @@
+Blog about objects and its internal reperesentation in javascript.
+
+object in javascript are one of the fundemental data type nd used to store collections of key value pairs.
+the keys are usually strings or number and the value can be any data type, also ncluding othe objects.
+
+* the objects in JS be formed of properties and methods. here the properties are key-value pairs (eg: dimension of a object) and strings or symbol and value which can be any data type.
+
+* each object in JS has an internal link to another object is called prototype. In user access of an object, when the property doesnot exist on the object, JS views on the prototype. 
+
+* every property of object has an associated property descriptor, which contains a data about the property. that data includes information such as wethere the property is weritabl. 

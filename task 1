@@ -1,0 +1,18 @@
+Difference between HTTP1.1 vs HTTP2
+
+HTTP-hypertext transfer protocol, this is the application protocol that exchanges the 
+information between a user computer and a local or world wide web. 
+
+HTTP1.1 
+* it process, only one request which can be outstanding on a connection at a time.
+* if multiple resources are needed to render a web page. then it has to requested sequentially which leads to latency issues and slower page download time.
+* each HTTP request and responce includes headers containing metadata about message.thes headers are sent in plain text and leads to excessive data being sent over networks.
+* it gives only the informatino or works according to the request thrown by the user. even though it has extra useful informations on that particular requst it will deny it. 
+* it is a text based protocol, with headers and data encoded as plain text.
+
+HTTP2
+* It introduces multiplexing, which allows multiple request and responce can be sent and recived simultaneously on a single connection.
+* this version reducesd the latency and improved efficiency by eleminating the need for multiple connections to fetch resources in parallel.
+* they used header copmression technique to reduce overhead by compressing header fields, which resulted in lower data transfer and iprover preformanc.
+* it supports server push, allows the server too forwardly push resources to  the user before they request.
+* this is a inary protocol, means the headers and data encoded in a binary formate.
