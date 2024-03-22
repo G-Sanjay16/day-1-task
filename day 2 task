@@ -1,0 +1,15 @@
+Difference between Document and Window Object.
+
+DOCUMENT 
+* The document object represents the web page loaded in the browser window.
+* This provides properties and methods to access the contents of the web page, such as elements, text, and style
+* The elements can be accessed with their IDs, classes, and tags.
+* The modification in the document content can also be done, such as adding, removing,or updating elements.
+* the "document" is part of the Document Object Model which meas it represents the structure content of the web page.
+
+WINDOW OBJECT
+* The window object reprecents the browser window that contains the document.
+* This provides properties and methods related to the browser window, such as controlling the size, posistion, and behaviour of the window.
+* This also includes properties for acessing the browser history,location and preforming navigation action like opening a new window or to reloade the current window.
+* the "window" object sereves as the global object in clint-side javascript,
+meaning the global variables and functions are attached to it.
